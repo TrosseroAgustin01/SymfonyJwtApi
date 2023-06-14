@@ -2,6 +2,9 @@
 
 use App\Kernel;
 
+/* echo 'matching';
+die(); */
+
 require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
 
 return function (array $context) {
